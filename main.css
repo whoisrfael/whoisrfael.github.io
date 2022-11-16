@@ -1,0 +1,108 @@
+/* Limpar formatações */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/*
+**** Layout ****
+*/
+
+#area-cabecalho{
+    background: #5da9ef;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+/*
+***** Formatação area principal *****
+*/
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-conteudo{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+    margin-top: 10px;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+
+
+#rodape{
+    clear: both;
+    padding: 15px;
+    background: #5da9ef;
+    text-align: center;
+}
+
+
+/*
+**** Formatação menu
+*/
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:link, a:visited{
+    color: #e6e6e6;
+}
+
+a:hover{
+    color:darkorange;
+}
+
+/*
+**** Formatação Geral
+*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #5da9ef;
+}
+
+.branco{
+    color: #fff;
+}
+
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+
