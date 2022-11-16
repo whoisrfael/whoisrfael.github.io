@@ -8,3 +8,20 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #e6e6e6;
 }
+
+/*
+**** Formatação menu
+*/
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:link, a:visited{
+    color: #e6e6e6;
+}
+
+a:hover{
+    color:darkorange;
+}
