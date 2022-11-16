@@ -16,8 +16,13 @@ body{
 a {
     text-decoration: none;
     padding: 8px 12px;
+    color: #070707;
 }
 
 a:link, a:visited{
     color: #070707;
+}
+
+#menu{
+    float:right
 }
