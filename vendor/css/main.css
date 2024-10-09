@@ -1,0 +1,36 @@
+/* Limpar a formatação padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+/* Estilo para o cabeçalho */
+.main-header {
+    text-align: center;
+    padding: 50px 20px; /* Espaçamento interno */
+    background-image: url('../../images/pexels-jonathanborba-14561615.jpg'); /* Adicione sua imagem aqui */
+    background-size: cover; /* Faz com que a imagem cubra todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    color: white; /* Cor do texto */
+    height: 655px; /* Altura do cabeçalho */
+}
+
+
+
+.main-header h1 {
+    font-size:  5em; /* Tamanho da fonte do título */
+    font-weight: bold;
+}
+
+.main-header p {
+    font-size: 2.2em; /* Tamanho da fonte da descrição */
+}
+
+
